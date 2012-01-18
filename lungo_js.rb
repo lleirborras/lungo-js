@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do |p|
-  "Lungo.js test server APP"
+  haml :index, :format => :html5
 end
 
 get '/:params' do |p|
