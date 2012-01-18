@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'json'
 
 get '/:params' do |p|
   content_type :json
