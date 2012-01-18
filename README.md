@@ -1,12 +1,15 @@
 # lungo-js
 ### A simple Sinatra app to help testing Lungo.js
 
-## By now, it responds to GET, POST, PUT and DELETE requests, by returning a JSON object like this:
+By now, it responds to GET, POST, PUT and DELETE requests, by returning a JSON object like this:
+
  { get: PARAMS }
+
 where PARAMS are the parameters send in the request.
 
 [Source code](https://github.com/lleirborras/lungo-js) and [issue tracking](http://github.com/lleirborras/lungo-js/issues) are available on Github.
-[Demo](http://lungo-js.heroku.com)
+
+[Demo](http://lungo-js.heroku.com) is available on Heroku
 
 Created by [Lleir Borras Metje](http://twitter.com/lleirborras).
 
