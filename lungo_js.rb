@@ -1,13 +1,13 @@
 require 'sinatra'
 require 'json'
 
+get '/index' do
+  haml :index, :format => :html5
+end
+
 get '/' do
-  if params.empty?
-    haml :index, :format => :html5
-  else
-    content_type :json
-    {:get => params}.to_json
-  end
+  content_type :json
+  {:get => params}.to_json
 end
 
 post '/' do
