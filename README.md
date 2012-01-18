@@ -11,9 +11,9 @@ where PARAMS are the parameters send in the request.
 
 [Demo](http://lungo-js.heroku.com) is available on Heroku
 
-Created by [Lleir Borras Metje](http://twitter.com/lleirborras).
+Created by [Lleïr Borràs Metje](http://twitter.com/lleirborras).
 
-Copyright (c) 2012 Lleir Borras Metje
+Copyright (c) 2012 Lleïr Borràs Metje
 
 ## MIT License
 
